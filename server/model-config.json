@@ -43,5 +43,13 @@
   "Address": {
     "dataSource": "db",
     "public": true
+  },
+  "Phone": {
+    "dataSource": "db",
+    "public": true
+  },
+  "EmailAddress": {
+    "dataSource": "db",
+    "public": true
   }
 }
