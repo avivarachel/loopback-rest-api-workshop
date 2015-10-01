@@ -1,0 +1,7 @@
+1. /Entries?filter[order]=firstName<ASC>
+2. /Entries?filter[limit]=10&[order]=lastName<ASC>
+3. /Entries?filter[skip]=10&[order]=lastName<ASC>
+4. /Entries?filter[where][firstName]=John
+5. /Entries?filter[where][firstName][inq]=John
+6. /AddressBooks?filter[include]=Entries
+7. /AddressBooks?filter[include]=Entries&filter[include][entries]=phones&filter[include][entries]=addresses&filter[include][entries]=emailAddresses
