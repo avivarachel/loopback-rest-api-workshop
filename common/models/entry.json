@@ -20,7 +20,23 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "addresses": {
+      "type": "hasMany",
+      "model": "Address",
+      "foreignKey": ""
+    },
+    "phones": {
+      "type": "hasMany",
+      "model": "Phone",
+      "foreignKey": ""
+    },
+    "emailAddresses": {
+      "type": "hasMany",
+      "model": "EmailAddress",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }
