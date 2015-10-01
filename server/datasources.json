@@ -6,7 +6,7 @@
   "addressBookDatabase": {
     "name": "addressBookDatabase",
     "connector": "mysql"
-    "username": "avivarachel",
+    "username": "ziad_saab",
     "hostname": "0.0.0.0",
     "database": "addressbooks"
   }
